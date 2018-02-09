@@ -1,0 +1,233 @@
+C:\Documents and Settings\AtifK\My Documents\Downloads\SimpleConsoleApplication\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+C:\Documents and Settings\AtifK\My Documents\Downloads\SimpleConsoleApplication\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+C:\Documents and Settings\AtifK\My Documents\Downloads\SimpleConsoleApplication\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+C:\Documents and Settings\AtifK\My Documents\Downloads\SimpleConsoleApplication\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+C:\Documents and Settings\AtifK\My Documents\Downloads\SimpleConsoleApplication\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+C:\Documents and Settings\AtifK\My Documents\Downloads\SimpleConsoleApplication\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+C:\Documents and Settings\AtifK\My Documents\Downloads\SimpleConsoleApplication\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+C:\Users\atifk.ACES.000\Desktop\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+C:\Users\atifk.ACES.000\Desktop\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+C:\Users\atifk.ACES.000\Desktop\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+C:\Users\atifk.ACES.000\Desktop\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+C:\Users\atifk.ACES.000\Desktop\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+C:\Users\atifkhan\Desktop\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+C:\Users\atifkhan\Desktop\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+C:\Users\atifkhan\Desktop\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+C:\Users\atifkhan\Desktop\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+C:\Users\atifkhan\Desktop\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+C:\Users\atifkhan\Desktop\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+C:\Users\atifkhan\Desktop\Single Antenna\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+C:\Users\atifkhan\Desktop\Single Antenna\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+C:\Users\atifkhan\Desktop\Single Antenna\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+C:\Users\atifkhan\Desktop\Single Antenna\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+C:\Users\atifkhan\Desktop\Single Antenna\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+C:\Users\atifkhan\Desktop\Single Antenna\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+C:\Users\atifkhan\Desktop\NJ-Light-Alarm\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+C:\Users\atifkhan\Desktop\NJ-Light-Alarm\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+C:\Users\atifkhan\Desktop\NJ-Light-Alarm\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+C:\Users\atifkhan\Desktop\NJ-Light-Alarm\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+C:\Users\atifkhan\Desktop\NJ-Light-Alarm\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+C:\Users\atifkhan\Desktop\NJ-Light-Alarm\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+C:\Users\atifk\Desktop\Desktop\NJ-Light-Alarm\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+C:\Users\atifk\Desktop\Desktop\NJ-Light-Alarm\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+C:\Users\atifk\Desktop\Desktop\NJ-Light-Alarm\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+C:\Users\atifk\Documents\Sonrai\Software\RFID\IF61\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+C:\Users\atifk\Documents\Sonrai\Software\RFID\IF61\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+C:\Users\atifk\Documents\Sonrai\Software\RFID\IF61\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+C:\Users\atifk\Documents\Sonrai\Software\RFID\IF61\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+C:\Users\atifk\Documents\Sonrai\Software\RFID\IF61\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+C:\Users\atifk\Documents\Sonrai\Software\RFID\IF61\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+C:\Users\atifk\Documents\Sonrai\Software\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Database.sdf
+C:\Users\atifk\Documents\Sonrai\Software\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Database.db
+C:\Users\atifk\Documents\Sonrai\Software\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+C:\Users\atifk\Documents\Sonrai\Software\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+C:\Users\atifk\Documents\Sonrai\Software\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+C:\Users\atifk\Documents\Sonrai\Software\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Mono.Data.SqliteClient.dll
+C:\Users\atifk\Documents\Sonrai\Software\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\System.Data.SqlServerCe.dll
+C:\Users\atifk\Documents\Sonrai\Software\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+C:\Users\atifk\Documents\Sonrai\Software\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+C:\Users\atifk\Documents\Sonrai\Software\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+C:\Users\atifk\Documents\Sonrai\Software\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\System.Data.SQLite.DLL
+C:\Users\atifk\Documents\Sonrai\Software\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\mysql.data.dll
+C:\Users\atifk\Documents\Sonrai\Software\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Mono.Data.Sqlite.dll
+C:\Users\atifk\Documents\Sonrai\Software\NJ-Light-Alarm - PHIL\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\App.config
+C:\Users\atifk\Documents\Sonrai\Software\IF61\BaseRFID\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\App.config
+C:\Users\atifk\Documents\Sonrai\Software\IF61\BaseRFID\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+C:\Users\atifk\Documents\Sonrai\Software\IF61\BaseRFID\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+C:\Users\atifk\Documents\Sonrai\Software\IF61\BaseRFID\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.XmlSerializers.dll
+C:\Users\atifk\Documents\Sonrai\Software\IF61\BaseRFID\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+C:\Users\atifk\Documents\Sonrai\Software\IF61\BaseRFID\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+C:\Users\atifk\Documents\Sonrai\Software\IF61\BaseRFID\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+C:\Users\atifk\Documents\Sonrai\Software\IF61\BaseRFID\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Mono.Data.Sqlite.dll
+C:\Users\atifk\Documents\Sonrai\Software\IF61\BaseRFID\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+C:\Users\atifk\Documents\Sonrai\Software\IF61\BaseRFID\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+C:\Users\atifk\Documents\Sonrai\Software\IF61\BaseRFID\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+C:\Users\atifk\Documents\Sonrai\Software\IF61\BaseRFID\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.XmlSerializers.dll
+D:\IF61 Programs\Standard Program\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\App.config
+D:\IF61 Programs\Standard Program\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+D:\IF61 Programs\Standard Program\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+D:\IF61 Programs\Standard Program\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.XmlSerializers.dll
+D:\IF61 Programs\Standard Program\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+D:\IF61 Programs\Standard Program\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+D:\IF61 Programs\Standard Program\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+D:\IF61 Programs\Standard Program\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Mono.Data.Sqlite.dll
+D:\IF61 Programs\Standard Program\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+D:\IF61 Programs\Standard Program\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+D:\IF61 Programs\Standard Program\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+D:\IF61 Programs\Standard Program\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.XmlSerializers.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+D:\IF61 Programs\IF61_CurrottoCan_v01\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+D:\IF61 Programs\IF61_CurrottoCan_v01\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+D:\IF61 Programs\IF61_CurrottoCan_v01\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.XmlSerializers.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\App.config
+D:\IF61 Programs\IF61_CurrottoCan_v01\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+D:\IF61 Programs\IF61_CurrottoCan_v01\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.XmlSerializers.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+D:\IF61 Programs\IF61_CurrottoCan_v01\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Mono.Data.Sqlite.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+D:\IF61 Programs\IF61_CurrottoCan_v01\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\config.xml
+D:\IF61 Programs\IF61_CurrottoCan_v01\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Database.db3
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.XmlSerializers.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\config.xml
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\App.config
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Database.db3
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.XmlSerializers.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Mono.Data.Sqlite.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.XmlSerializers.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Database.db3
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\config.xml
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\App.config
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.XmlSerializers.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Mono.Data.Sqlite.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\userapp.conf
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-26-2 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Database.db3
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-26-2 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\userapp.conf
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-26-2 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\config.xml
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-26-2 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\App.config
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-26-2 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-26-2 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-26-2 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.XmlSerializers.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-26-2 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-26-2 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-26-2 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-26-2 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Mono.Data.Sqlite.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-26-2 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-26-2 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-26-2 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-26-2 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.XmlSerializers.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-4 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Database.db3
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-4 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\userapp.conf
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-4 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\config.xml
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-4 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\App.config
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-4 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-4 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-4 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.XmlSerializers.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-4 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-4 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-4 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-4 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Mono.Data.Sqlite.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-4 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-4 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-4 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-4 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.XmlSerializers.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-5 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Database.db3
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-5 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\userapp.conf
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-5 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\config.xml
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-5 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\App.config
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-5 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-5 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-5 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.XmlSerializers.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-5 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-5 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-5 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-5 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Mono.Data.Sqlite.dll
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-5 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-5 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-5 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+D:\IF61 Programs\IF61_CurrottoCan_v01 - Observations - PolkCounty - 1-27-5 - Cloud\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.XmlSerializers.dll
+C:\My Applications\Sonrai Source\Updated Source from sonrai\IF61-DataCollection\IF61-DataCollection\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Database.db3
+C:\My Applications\Sonrai Source\Updated Source from sonrai\IF61-DataCollection\IF61-DataCollection\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\userapp.conf
+C:\My Applications\Sonrai Source\Updated Source from sonrai\IF61-DataCollection\IF61-DataCollection\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\config.xml
+C:\My Applications\Sonrai Source\Updated Source from sonrai\IF61-DataCollection\IF61-DataCollection\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\App.config
+C:\My Applications\Sonrai Source\Updated Source from sonrai\IF61-DataCollection\IF61-DataCollection\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+C:\My Applications\Sonrai Source\Updated Source from sonrai\IF61-DataCollection\IF61-DataCollection\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+C:\My Applications\Sonrai Source\Updated Source from sonrai\IF61-DataCollection\IF61-DataCollection\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.XmlSerializers.dll
+C:\My Applications\Sonrai Source\Updated Source from sonrai\IF61-DataCollection\IF61-DataCollection\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+C:\My Applications\Sonrai Source\Updated Source from sonrai\IF61-DataCollection\IF61-DataCollection\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+C:\My Applications\Sonrai Source\Updated Source from sonrai\IF61-DataCollection\IF61-DataCollection\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+C:\My Applications\Sonrai Source\Updated Source from sonrai\IF61-DataCollection\IF61-DataCollection\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Mono.Data.Sqlite.dll
+C:\My Applications\Sonrai Source\Updated Source from sonrai\IF61-DataCollection\IF61-DataCollection\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+C:\My Applications\Sonrai Source\Updated Source from sonrai\IF61-DataCollection\IF61-DataCollection\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+C:\My Applications\Sonrai Source\Updated Source from sonrai\IF61-DataCollection\IF61-DataCollection\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+C:\My Applications\Sonrai Source\Updated Source from sonrai\IF61-DataCollection\IF61-DataCollection\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.XmlSerializers.dll
+C:\My Applications\Sonrai Source\IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+C:\My Applications\Sonrai Source\IF2IF61RFIDConsoleApp\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+C:\My Applications\Sonrai Source\IF2IF61RFIDConsoleApp\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+C:\My Applications\Sonrai Source\IF2IF61RFIDConsoleApp\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.XmlSerializers.dll
+C:\My Applications\Sonrai Source\IF2IF61RFIDConsoleApp\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+C:\My Applications\Sonrai Source\IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\Database.db3
+C:\My Applications\Sonrai Source\IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\userapp.conf
+C:\My Applications\Sonrai Source\IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\config.xml
+C:\My Applications\Sonrai Source\IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\App.config
+C:\My Applications\Sonrai Source\IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+C:\My Applications\Sonrai Source\IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.XmlSerializers.dll
+C:\My Applications\Sonrai Source\IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+C:\My Applications\Sonrai Source\IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+C:\My Applications\Sonrai Source\IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+C:\My Applications\Sonrai Source\IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\Mono.Data.Sqlite.dll
+C:\My Applications\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\Database.db3
+C:\My Applications\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\userapp.conf
+C:\My Applications\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\config.xml
+C:\My Applications\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\App.config
+C:\My Applications\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+C:\My Applications\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+C:\My Applications\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.XmlSerializers.dll
+C:\My Applications\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+C:\My Applications\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+C:\My Applications\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+C:\My Applications\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\Mono.Data.Sqlite.dll
+C:\My Applications\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\PowerCalibrationDll.dll
+C:\My Applications\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+C:\My Applications\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+C:\My Applications\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+C:\My Applications\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.XmlSerializers.dll
+C:\Users\sonrai systems\Desktop\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.csprojResolveAssemblyReference.cache
+C:\Users\sonrai systems\Desktop\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Users\sonrai systems\Desktop\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+C:\Users\sonrai systems\Desktop\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\Config-Removed-Lines.xml
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\Database.db3
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\userapp.conf
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\config.xml
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\App.config
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe.config
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.XmlSerializers.dll
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\Mono.Data.Sqlite.dll
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\bin\Release\PowerCalibrationDll.dll
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.csprojResolveAssemblyReference.cache
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+C:\Users\Alec-PC\Desktop\Development\IF2+\Latest Master App Files\Sonrai IF2IF61RFIDConsoleApp_v_Y\Sonrai IF2IF61RFIDConsoleApp\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.XmlSerializers.dll

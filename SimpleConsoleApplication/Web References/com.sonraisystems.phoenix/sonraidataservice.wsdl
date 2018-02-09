@@ -1,0 +1,1581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://phoenix.sonraisystems.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="https://phoenix.sonraisystems.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="https://phoenix.sonraisystems.com/">
+      <s:element name="dsGetTruckData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="date" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="programname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsGetTruckDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsGetTruckDataResult" type="tns:ArrayOfClsRBRecord" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfClsRBRecord">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="clsRBRecord" nillable="true" type="tns:clsRBRecord" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="clsRBRecord">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="timestamp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="rfidtag" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="programname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="truckid" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="dsGetTruckDataByPage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="date" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="programname" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="page" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsGetTruckDataByPageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsGetTruckDataByPageResult" type="tns:ArrayOfClsRBRecord" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsGetTruckDataCount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="date" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="programname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsGetTruckDataCountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="dsGetTruckDataCountResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsGetProgramNames">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="clientID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsGetProgramNamesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsGetProgramNamesResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="dsGetTrucksByProgram">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="programName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsGetTrucksByProgramResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsGetTrucksByProgramResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsGetAddressByRFID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="rfidtag" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsGetAddressByRFIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsGetAddressByRFIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateTruckStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="guid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateTruckStatusResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="dsWriteTestData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="records" type="tns:ArrayOfClsRecord" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="programname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfClsRecord">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="clsRecord" nillable="true" type="tns:clsRecord" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="clsRecord">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="programname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="truckid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="tag" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="lat" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="lon" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="timestamp" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="dsWriteTestDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsWriteTestDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsLogException">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="records" type="tns:ArrayOfClsException" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfClsException">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="clsException" nillable="true" type="tns:clsException" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="clsException">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ExceptionID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="timestamp" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="programname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="truckid" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="dsLogExceptionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsLogExceptionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsGUIDLookup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="programname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsGUIDLookupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsGUIDLookupResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsCheckConfig">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="guid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="timestamp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsCheckConfigResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsCheckConfigResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsGetConfig">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="guid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsGetConfigResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsGetConfigResult" type="tns:clsConfig" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="clsConfig">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="guid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="programname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="truckid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ant1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ant2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ant3" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ant4" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="delimeter" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="route" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="loggingenabled" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="liveaddresslookup" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="reportstatus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="connectionstring" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="datemodified" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UpdateConfigStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="guid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateConfigStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateConfigStatusResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteGPSCollection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="records" type="tns:ArrayOfClsGPS" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="programname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfClsGPS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="clsGPS" nillable="true" type="tns:clsGPS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="clsGPS">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="timestamp" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="lat" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="lon" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="WriteGPSCollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WriteGPSCollectionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteObservation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="observations" type="tns:ArrayOfObservation" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="programname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfObservation">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Observation" nillable="true" type="tns:Observation" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Observation">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="timestamp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="rfidtag" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="observationCode" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="WriteObservationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WriteObservationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteContainerRecord">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="containers" type="tns:ArrayOfClsContainer" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfClsContainer">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="clsContainer" nillable="true" type="tns:clsContainer" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="clsContainer">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="street_num" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="street_name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="street_suffix" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="city" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="state" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="zip" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="size" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="serialnumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="route" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="custnumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="rfidtag" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="lat" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="lng" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="program_id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="timestamp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="handheld_id" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="action" type="tns:Actions" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="Actions">
+        <s:restriction base="s:string">
+          <s:enumeration value="DELIVER" />
+          <s:enumeration value="EDIT_UPDATE" />
+          <s:enumeration value="EDIT_REMOVE" />
+          <s:enumeration value="EXCHANGE" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="WriteContainerRecordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WriteContainerRecordResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateFromServer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="timestamp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="handheldID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateFromServerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateFromServerResult" type="tns:ArrayOfClsContainer" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsWriteRecordWithWeight">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="records" type="tns:ArrayOfClsWeightRecord" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="programname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfClsWeightRecord">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="clsWeightRecord" nillable="true" type="tns:clsWeightRecord" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="clsWeightRecord">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="programname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="truckid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="tag" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="lat" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="lon" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="timestamp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="weight" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="dsWriteRecordWithWeightResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsWriteRecordWithWeightResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsSendHandheldData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="handheldRecords" type="tns:ArrayOfClsHandheldRecord" />
+            <s:element minOccurs="0" maxOccurs="1" name="handheldID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="programName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfClsHandheldRecord">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="clsHandheldRecord" nillable="true" type="tns:clsHandheldRecord" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="clsHandheldRecord">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="rfidtag" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="latitude" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="longitude" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="street_num" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="street_name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="unit" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="city" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="state" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="serialNumber" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="transactiontype" type="tns:TranscationType" />
+          <s:element minOccurs="0" maxOccurs="1" name="timestamp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="notes" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="truck_load" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="TranscationType">
+        <s:restriction base="s:string">
+          <s:enumeration value="ADD" />
+          <s:enumeration value="UPDATE" />
+          <s:enumeration value="DELETE" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="dsSendHandheldDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsSendHandheldDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ArrayOfClsRBRecord" nillable="true" type="tns:ArrayOfClsRBRecord" />
+      <s:element name="int" type="s:int" />
+      <s:element name="ArrayOfString" nillable="true" type="tns:ArrayOfString" />
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="clsConfig" nillable="true" type="tns:clsConfig" />
+      <s:element name="ArrayOfClsContainer" nillable="true" type="tns:ArrayOfClsContainer" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="dsGetTruckDataSoapIn">
+    <wsdl:part name="parameters" element="tns:dsGetTruckData" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTruckDataSoapOut">
+    <wsdl:part name="parameters" element="tns:dsGetTruckDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTruckDataByPageSoapIn">
+    <wsdl:part name="parameters" element="tns:dsGetTruckDataByPage" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTruckDataByPageSoapOut">
+    <wsdl:part name="parameters" element="tns:dsGetTruckDataByPageResponse" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTruckDataCountSoapIn">
+    <wsdl:part name="parameters" element="tns:dsGetTruckDataCount" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTruckDataCountSoapOut">
+    <wsdl:part name="parameters" element="tns:dsGetTruckDataCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="dsGetProgramNamesSoapIn">
+    <wsdl:part name="parameters" element="tns:dsGetProgramNames" />
+  </wsdl:message>
+  <wsdl:message name="dsGetProgramNamesSoapOut">
+    <wsdl:part name="parameters" element="tns:dsGetProgramNamesResponse" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTrucksByProgramSoapIn">
+    <wsdl:part name="parameters" element="tns:dsGetTrucksByProgram" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTrucksByProgramSoapOut">
+    <wsdl:part name="parameters" element="tns:dsGetTrucksByProgramResponse" />
+  </wsdl:message>
+  <wsdl:message name="dsGetAddressByRFIDSoapIn">
+    <wsdl:part name="parameters" element="tns:dsGetAddressByRFID" />
+  </wsdl:message>
+  <wsdl:message name="dsGetAddressByRFIDSoapOut">
+    <wsdl:part name="parameters" element="tns:dsGetAddressByRFIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTruckStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateTruckStatus" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTruckStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateTruckStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="dsWriteTestDataSoapIn">
+    <wsdl:part name="parameters" element="tns:dsWriteTestData" />
+  </wsdl:message>
+  <wsdl:message name="dsWriteTestDataSoapOut">
+    <wsdl:part name="parameters" element="tns:dsWriteTestDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="dsLogExceptionSoapIn">
+    <wsdl:part name="parameters" element="tns:dsLogException" />
+  </wsdl:message>
+  <wsdl:message name="dsLogExceptionSoapOut">
+    <wsdl:part name="parameters" element="tns:dsLogExceptionResponse" />
+  </wsdl:message>
+  <wsdl:message name="dsGUIDLookupSoapIn">
+    <wsdl:part name="parameters" element="tns:dsGUIDLookup" />
+  </wsdl:message>
+  <wsdl:message name="dsGUIDLookupSoapOut">
+    <wsdl:part name="parameters" element="tns:dsGUIDLookupResponse" />
+  </wsdl:message>
+  <wsdl:message name="dsCheckConfigSoapIn">
+    <wsdl:part name="parameters" element="tns:dsCheckConfig" />
+  </wsdl:message>
+  <wsdl:message name="dsCheckConfigSoapOut">
+    <wsdl:part name="parameters" element="tns:dsCheckConfigResponse" />
+  </wsdl:message>
+  <wsdl:message name="dsGetConfigSoapIn">
+    <wsdl:part name="parameters" element="tns:dsGetConfig" />
+  </wsdl:message>
+  <wsdl:message name="dsGetConfigSoapOut">
+    <wsdl:part name="parameters" element="tns:dsGetConfigResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateConfigStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateConfigStatus" />
+  </wsdl:message>
+  <wsdl:message name="UpdateConfigStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateConfigStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="WriteGPSCollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:WriteGPSCollection" />
+  </wsdl:message>
+  <wsdl:message name="WriteGPSCollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:WriteGPSCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="WriteObservationSoapIn">
+    <wsdl:part name="parameters" element="tns:WriteObservation" />
+  </wsdl:message>
+  <wsdl:message name="WriteObservationSoapOut">
+    <wsdl:part name="parameters" element="tns:WriteObservationResponse" />
+  </wsdl:message>
+  <wsdl:message name="WriteContainerRecordSoapIn">
+    <wsdl:part name="parameters" element="tns:WriteContainerRecord" />
+  </wsdl:message>
+  <wsdl:message name="WriteContainerRecordSoapOut">
+    <wsdl:part name="parameters" element="tns:WriteContainerRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateFromServerSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateFromServer" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateFromServerSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateFromServerResponse" />
+  </wsdl:message>
+  <wsdl:message name="dsWriteRecordWithWeightSoapIn">
+    <wsdl:part name="parameters" element="tns:dsWriteRecordWithWeight" />
+  </wsdl:message>
+  <wsdl:message name="dsWriteRecordWithWeightSoapOut">
+    <wsdl:part name="parameters" element="tns:dsWriteRecordWithWeightResponse" />
+  </wsdl:message>
+  <wsdl:message name="dsSendHandheldDataSoapIn">
+    <wsdl:part name="parameters" element="tns:dsSendHandheldData" />
+  </wsdl:message>
+  <wsdl:message name="dsSendHandheldDataSoapOut">
+    <wsdl:part name="parameters" element="tns:dsSendHandheldDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTruckDataHttpGetIn">
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="date" type="s:string" />
+    <wsdl:part name="truckid" type="s:string" />
+    <wsdl:part name="programname" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTruckDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfClsRBRecord" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTruckDataByPageHttpGetIn">
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="date" type="s:string" />
+    <wsdl:part name="truckid" type="s:string" />
+    <wsdl:part name="programname" type="s:string" />
+    <wsdl:part name="page" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTruckDataByPageHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfClsRBRecord" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTruckDataCountHttpGetIn">
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="date" type="s:string" />
+    <wsdl:part name="truckid" type="s:string" />
+    <wsdl:part name="programname" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTruckDataCountHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="dsGetProgramNamesHttpGetIn">
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="clientID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGetProgramNamesHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTrucksByProgramHttpGetIn">
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="programName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTrucksByProgramHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="dsGetAddressByRFIDHttpGetIn">
+    <wsdl:part name="rfidtag" type="s:string" />
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGetAddressByRFIDHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTruckStatusHttpGetIn">
+    <wsdl:part name="guid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTruckStatusHttpGetOut" />
+  <wsdl:message name="dsGUIDLookupHttpGetIn">
+    <wsdl:part name="programname" type="s:string" />
+    <wsdl:part name="truckid" type="s:string" />
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGUIDLookupHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="dsCheckConfigHttpGetIn">
+    <wsdl:part name="guid" type="s:string" />
+    <wsdl:part name="timestamp" type="s:string" />
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsCheckConfigHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGetConfigHttpGetIn">
+    <wsdl:part name="guid" type="s:string" />
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGetConfigHttpGetOut">
+    <wsdl:part name="Body" element="tns:clsConfig" />
+  </wsdl:message>
+  <wsdl:message name="UpdateConfigStatusHttpGetIn">
+    <wsdl:part name="guid" type="s:string" />
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateConfigStatusHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateFromServerHttpGetIn">
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="timestamp" type="s:string" />
+    <wsdl:part name="handheldID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateFromServerHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfClsContainer" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTruckDataHttpPostIn">
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="date" type="s:string" />
+    <wsdl:part name="truckid" type="s:string" />
+    <wsdl:part name="programname" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTruckDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfClsRBRecord" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTruckDataByPageHttpPostIn">
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="date" type="s:string" />
+    <wsdl:part name="truckid" type="s:string" />
+    <wsdl:part name="programname" type="s:string" />
+    <wsdl:part name="page" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTruckDataByPageHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfClsRBRecord" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTruckDataCountHttpPostIn">
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="date" type="s:string" />
+    <wsdl:part name="truckid" type="s:string" />
+    <wsdl:part name="programname" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTruckDataCountHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="dsGetProgramNamesHttpPostIn">
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="clientID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGetProgramNamesHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTrucksByProgramHttpPostIn">
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="programName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGetTrucksByProgramHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="dsGetAddressByRFIDHttpPostIn">
+    <wsdl:part name="rfidtag" type="s:string" />
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGetAddressByRFIDHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTruckStatusHttpPostIn">
+    <wsdl:part name="guid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTruckStatusHttpPostOut" />
+  <wsdl:message name="dsGUIDLookupHttpPostIn">
+    <wsdl:part name="programname" type="s:string" />
+    <wsdl:part name="truckid" type="s:string" />
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGUIDLookupHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="dsCheckConfigHttpPostIn">
+    <wsdl:part name="guid" type="s:string" />
+    <wsdl:part name="timestamp" type="s:string" />
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsCheckConfigHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGetConfigHttpPostIn">
+    <wsdl:part name="guid" type="s:string" />
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dsGetConfigHttpPostOut">
+    <wsdl:part name="Body" element="tns:clsConfig" />
+  </wsdl:message>
+  <wsdl:message name="UpdateConfigStatusHttpPostIn">
+    <wsdl:part name="guid" type="s:string" />
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateConfigStatusHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateFromServerHttpPostIn">
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="timestamp" type="s:string" />
+    <wsdl:part name="handheldID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateFromServerHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfClsContainer" />
+  </wsdl:message>
+  <wsdl:portType name="SonraiDataServiceSoap">
+    <wsdl:operation name="dsGetTruckData">
+      <wsdl:input message="tns:dsGetTruckDataSoapIn" />
+      <wsdl:output message="tns:dsGetTruckDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTruckDataByPage">
+      <wsdl:input message="tns:dsGetTruckDataByPageSoapIn" />
+      <wsdl:output message="tns:dsGetTruckDataByPageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTruckDataCount">
+      <wsdl:input message="tns:dsGetTruckDataCountSoapIn" />
+      <wsdl:output message="tns:dsGetTruckDataCountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetProgramNames">
+      <wsdl:input message="tns:dsGetProgramNamesSoapIn" />
+      <wsdl:output message="tns:dsGetProgramNamesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTrucksByProgram">
+      <wsdl:input message="tns:dsGetTrucksByProgramSoapIn" />
+      <wsdl:output message="tns:dsGetTrucksByProgramSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetAddressByRFID">
+      <wsdl:input message="tns:dsGetAddressByRFIDSoapIn" />
+      <wsdl:output message="tns:dsGetAddressByRFIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTruckStatus">
+      <wsdl:input message="tns:UpdateTruckStatusSoapIn" />
+      <wsdl:output message="tns:UpdateTruckStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsWriteTestData">
+      <wsdl:input message="tns:dsWriteTestDataSoapIn" />
+      <wsdl:output message="tns:dsWriteTestDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsLogException">
+      <wsdl:input message="tns:dsLogExceptionSoapIn" />
+      <wsdl:output message="tns:dsLogExceptionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGUIDLookup">
+      <wsdl:input message="tns:dsGUIDLookupSoapIn" />
+      <wsdl:output message="tns:dsGUIDLookupSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsCheckConfig">
+      <wsdl:input message="tns:dsCheckConfigSoapIn" />
+      <wsdl:output message="tns:dsCheckConfigSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetConfig">
+      <wsdl:input message="tns:dsGetConfigSoapIn" />
+      <wsdl:output message="tns:dsGetConfigSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConfigStatus">
+      <wsdl:input message="tns:UpdateConfigStatusSoapIn" />
+      <wsdl:output message="tns:UpdateConfigStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteGPSCollection">
+      <wsdl:input message="tns:WriteGPSCollectionSoapIn" />
+      <wsdl:output message="tns:WriteGPSCollectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteObservation">
+      <wsdl:input message="tns:WriteObservationSoapIn" />
+      <wsdl:output message="tns:WriteObservationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteContainerRecord">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync - Send Data to Server</wsdl:documentation>
+      <wsdl:input message="tns:WriteContainerRecordSoapIn" />
+      <wsdl:output message="tns:WriteContainerRecordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateFromServer">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync- Receive Update from Server</wsdl:documentation>
+      <wsdl:input message="tns:GetUpdateFromServerSoapIn" />
+      <wsdl:output message="tns:GetUpdateFromServerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsWriteRecordWithWeight">
+      <wsdl:input message="tns:dsWriteRecordWithWeightSoapIn" />
+      <wsdl:output message="tns:dsWriteRecordWithWeightSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsSendHandheldData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Send Handheld Data to Server</wsdl:documentation>
+      <wsdl:input message="tns:dsSendHandheldDataSoapIn" />
+      <wsdl:output message="tns:dsSendHandheldDataSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SonraiDataServiceHttpGet">
+    <wsdl:operation name="dsGetTruckData">
+      <wsdl:input message="tns:dsGetTruckDataHttpGetIn" />
+      <wsdl:output message="tns:dsGetTruckDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTruckDataByPage">
+      <wsdl:input message="tns:dsGetTruckDataByPageHttpGetIn" />
+      <wsdl:output message="tns:dsGetTruckDataByPageHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTruckDataCount">
+      <wsdl:input message="tns:dsGetTruckDataCountHttpGetIn" />
+      <wsdl:output message="tns:dsGetTruckDataCountHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetProgramNames">
+      <wsdl:input message="tns:dsGetProgramNamesHttpGetIn" />
+      <wsdl:output message="tns:dsGetProgramNamesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTrucksByProgram">
+      <wsdl:input message="tns:dsGetTrucksByProgramHttpGetIn" />
+      <wsdl:output message="tns:dsGetTrucksByProgramHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetAddressByRFID">
+      <wsdl:input message="tns:dsGetAddressByRFIDHttpGetIn" />
+      <wsdl:output message="tns:dsGetAddressByRFIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTruckStatus">
+      <wsdl:input message="tns:UpdateTruckStatusHttpGetIn" />
+      <wsdl:output message="tns:UpdateTruckStatusHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGUIDLookup">
+      <wsdl:input message="tns:dsGUIDLookupHttpGetIn" />
+      <wsdl:output message="tns:dsGUIDLookupHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsCheckConfig">
+      <wsdl:input message="tns:dsCheckConfigHttpGetIn" />
+      <wsdl:output message="tns:dsCheckConfigHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetConfig">
+      <wsdl:input message="tns:dsGetConfigHttpGetIn" />
+      <wsdl:output message="tns:dsGetConfigHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConfigStatus">
+      <wsdl:input message="tns:UpdateConfigStatusHttpGetIn" />
+      <wsdl:output message="tns:UpdateConfigStatusHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateFromServer">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync- Receive Update from Server</wsdl:documentation>
+      <wsdl:input message="tns:GetUpdateFromServerHttpGetIn" />
+      <wsdl:output message="tns:GetUpdateFromServerHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SonraiDataServiceHttpPost">
+    <wsdl:operation name="dsGetTruckData">
+      <wsdl:input message="tns:dsGetTruckDataHttpPostIn" />
+      <wsdl:output message="tns:dsGetTruckDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTruckDataByPage">
+      <wsdl:input message="tns:dsGetTruckDataByPageHttpPostIn" />
+      <wsdl:output message="tns:dsGetTruckDataByPageHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTruckDataCount">
+      <wsdl:input message="tns:dsGetTruckDataCountHttpPostIn" />
+      <wsdl:output message="tns:dsGetTruckDataCountHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetProgramNames">
+      <wsdl:input message="tns:dsGetProgramNamesHttpPostIn" />
+      <wsdl:output message="tns:dsGetProgramNamesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTrucksByProgram">
+      <wsdl:input message="tns:dsGetTrucksByProgramHttpPostIn" />
+      <wsdl:output message="tns:dsGetTrucksByProgramHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetAddressByRFID">
+      <wsdl:input message="tns:dsGetAddressByRFIDHttpPostIn" />
+      <wsdl:output message="tns:dsGetAddressByRFIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTruckStatus">
+      <wsdl:input message="tns:UpdateTruckStatusHttpPostIn" />
+      <wsdl:output message="tns:UpdateTruckStatusHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGUIDLookup">
+      <wsdl:input message="tns:dsGUIDLookupHttpPostIn" />
+      <wsdl:output message="tns:dsGUIDLookupHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsCheckConfig">
+      <wsdl:input message="tns:dsCheckConfigHttpPostIn" />
+      <wsdl:output message="tns:dsCheckConfigHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsGetConfig">
+      <wsdl:input message="tns:dsGetConfigHttpPostIn" />
+      <wsdl:output message="tns:dsGetConfigHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConfigStatus">
+      <wsdl:input message="tns:UpdateConfigStatusHttpPostIn" />
+      <wsdl:output message="tns:UpdateConfigStatusHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateFromServer">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync- Receive Update from Server</wsdl:documentation>
+      <wsdl:input message="tns:GetUpdateFromServerHttpPostIn" />
+      <wsdl:output message="tns:GetUpdateFromServerHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SonraiDataServiceSoap" type="tns:SonraiDataServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="dsGetTruckData">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/dsGetTruckData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTruckDataByPage">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/dsGetTruckDataByPage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTruckDataCount">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/dsGetTruckDataCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetProgramNames">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/dsGetProgramNames" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTrucksByProgram">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/dsGetTrucksByProgram" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetAddressByRFID">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/dsGetAddressByRFID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTruckStatus">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/UpdateTruckStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsWriteTestData">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/dsWriteTestData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsLogException">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/dsLogException" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGUIDLookup">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/dsGUIDLookup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsCheckConfig">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/dsCheckConfig" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetConfig">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/dsGetConfig" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConfigStatus">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/UpdateConfigStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteGPSCollection">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/WriteGPSCollection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteObservation">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/WriteObservation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteContainerRecord">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/WriteContainerRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateFromServer">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/GetUpdateFromServer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsWriteRecordWithWeight">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/dsWriteRecordWithWeight" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsSendHandheldData">
+      <soap:operation soapAction="https://phoenix.sonraisystems.com/dsSendHandheldData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SonraiDataServiceSoap12" type="tns:SonraiDataServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="dsGetTruckData">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/dsGetTruckData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTruckDataByPage">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/dsGetTruckDataByPage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTruckDataCount">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/dsGetTruckDataCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetProgramNames">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/dsGetProgramNames" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTrucksByProgram">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/dsGetTrucksByProgram" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetAddressByRFID">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/dsGetAddressByRFID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTruckStatus">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/UpdateTruckStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsWriteTestData">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/dsWriteTestData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsLogException">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/dsLogException" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGUIDLookup">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/dsGUIDLookup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsCheckConfig">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/dsCheckConfig" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetConfig">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/dsGetConfig" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConfigStatus">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/UpdateConfigStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteGPSCollection">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/WriteGPSCollection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteObservation">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/WriteObservation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteContainerRecord">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/WriteContainerRecord" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateFromServer">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/GetUpdateFromServer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsWriteRecordWithWeight">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/dsWriteRecordWithWeight" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsSendHandheldData">
+      <soap12:operation soapAction="https://phoenix.sonraisystems.com/dsSendHandheldData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SonraiDataServiceHttpGet" type="tns:SonraiDataServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="dsGetTruckData">
+      <http:operation location="/dsGetTruckData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTruckDataByPage">
+      <http:operation location="/dsGetTruckDataByPage" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTruckDataCount">
+      <http:operation location="/dsGetTruckDataCount" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetProgramNames">
+      <http:operation location="/dsGetProgramNames" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTrucksByProgram">
+      <http:operation location="/dsGetTrucksByProgram" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetAddressByRFID">
+      <http:operation location="/dsGetAddressByRFID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTruckStatus">
+      <http:operation location="/UpdateTruckStatus" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="dsGUIDLookup">
+      <http:operation location="/dsGUIDLookup" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsCheckConfig">
+      <http:operation location="/dsCheckConfig" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetConfig">
+      <http:operation location="/dsGetConfig" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConfigStatus">
+      <http:operation location="/UpdateConfigStatus" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateFromServer">
+      <http:operation location="/GetUpdateFromServer" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SonraiDataServiceHttpPost" type="tns:SonraiDataServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="dsGetTruckData">
+      <http:operation location="/dsGetTruckData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTruckDataByPage">
+      <http:operation location="/dsGetTruckDataByPage" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTruckDataCount">
+      <http:operation location="/dsGetTruckDataCount" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetProgramNames">
+      <http:operation location="/dsGetProgramNames" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetTrucksByProgram">
+      <http:operation location="/dsGetTrucksByProgram" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetAddressByRFID">
+      <http:operation location="/dsGetAddressByRFID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTruckStatus">
+      <http:operation location="/UpdateTruckStatus" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="dsGUIDLookup">
+      <http:operation location="/dsGUIDLookup" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsCheckConfig">
+      <http:operation location="/dsCheckConfig" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsGetConfig">
+      <http:operation location="/dsGetConfig" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConfigStatus">
+      <http:operation location="/UpdateConfigStatus" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateFromServer">
+      <http:operation location="/GetUpdateFromServer" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SonraiDataService">
+    <wsdl:port name="SonraiDataServiceSoap" binding="tns:SonraiDataServiceSoap">
+      <soap:address location="http://phoenix.sonraisystems.com/sonraidataservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SonraiDataServiceSoap12" binding="tns:SonraiDataServiceSoap12">
+      <soap12:address location="http://phoenix.sonraisystems.com/sonraidataservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SonraiDataServiceHttpGet" binding="tns:SonraiDataServiceHttpGet">
+      <http:address location="http://phoenix.sonraisystems.com/sonraidataservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SonraiDataServiceHttpPost" binding="tns:SonraiDataServiceHttpPost">
+      <http:address location="http://phoenix.sonraisystems.com/sonraidataservice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <!--
+  <gps_timer>1000</gps_timer> //Is this necessary??
+  <read_pause_time_ms>1000</read_pause_time_ms> //Is this necessary??
+  <read_duration_ms>1000</read_duration_ms> //Is this necessary??
+  <transmit_mode>ftp</transmit_mode> //Is this necessary??
+  <pingserver>www.yahoo.com</pingserver> //Is this necessary??
+  <ftp_server>ftp.aceseq.com</ftp_server> //Is this necessary??
+  <ftp_username>phil</ftp_username> //Is this necessary??
+  <ftp_password>SonraiSys1234</ftp_password> //Is this necessary??
+  <ftp_dir>/PHIL</ftp_dir> //Is this necessary??
+  <ex_dir>/ex</ex_dir> //Is this necessary??
+  <bl_dir>/bl</bl_dir> //Is this necessary??
+  <arm_timer>10000</arm_timer> //Is this necessary?? I don't believe it is.
+  -->
+</config>

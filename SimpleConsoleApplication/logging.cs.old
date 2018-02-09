@@ -1,0 +1,77 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+using System.Collections;
+using System.Threading;
+
+namespace SimpleConsoleApplication
+{
+    class logging
+    {
+    //    public static bool bDebug;
+    //    public static ArrayList logArrayList = new ArrayList();
+    //    public static ArrayList logExceptionArrayList = new ArrayList();
+    //    public static ArrayList logBladeList = new ArrayList();
+    //    DataAccess DA = new DataAccess();
+
+    //    public void logEvent()
+    //    {
+    //        while (true)
+    //        {
+    //            if (logArrayList.Count > 0)
+    //            {
+    //                if (bDebug == true) { Console.WriteLine("Logging Data: " + settings.truckid + settings.delimiter + GPS.date.ToString() + " " + GPS.time.ToString() + settings.delimiter + logArrayList[0].ToString() + settings.delimiter + settings.delimiter); }
+    //                try
+    //                {
+    //                    Thread.Sleep(200);
+    //                    //DateTime.Now,tagID.ToString(),lat ,lon
+    //                    string[] values = logArrayList[0].ToString().Split(',');
+    //                    DA.InsertPickupRecord(values[1], settings.programName, settings.truckid,values[0], values[2], values[3]);
+    //                    logArrayList.RemoveAt(0);
+    //                }
+    //                catch (Exception ex)
+    //                {
+    //                    Console.WriteLine(GPS.date.ToString() + " " + GPS.time.ToString() + " " + ex.Message);
+    //                }
+    //            }
+
+    //            if (logExceptionArrayList.Count > 0)
+    //            {
+    //                if (bDebug == true) { Console.WriteLine("Logging Exception: " + GPS.date.ToString() + " " + GPS.time.ToString() + "--->" + logExceptionArrayList[0].ToString() + "     Count: " + logExceptionArrayList.Count.ToString()); }
+    //                try
+    //                {
+    //                    Thread.Sleep(500);
+    //                    //sw = File.AppendText("/home/developer/edgeware/userapp9/./TagExceptionLog.txt");
+                        
+    //                    //sw.WriteLine(settings.programName + settings.delimiter + GPS.date.ToString() + " " + GPS.time.ToString() + settings.delimiter + logExceptionArrayList[0].ToString());
+    //                    //sw.Close();
+    //                    //logExceptionArrayList.RemoveAt(0);    
+    //                }
+    //                catch (Exception ex)
+    //                {
+    //                    Console.WriteLine("Exception: " + ex.Message);
+    //                }
+    //            }
+
+    //            if (logBladeList.Count > 0)
+    //            {
+    //                if (bDebug == true) { Console.WriteLine("Logging Data: " + settings.truckid + settings.delimiter + GPS.date.ToString() + " " + GPS.time.ToString() + settings.delimiter + logBladeList[0].ToString() + settings.delimiter + settings.delimiter); }
+    //                try
+    //                {
+    //                    Thread.Sleep(500);
+    //                    //sw = File.AppendText("/home/developer/edgeware/userapp9/./TagBladeLog.txt");
+    //                    //sw.WriteLine(settings.programName + settings.delimiter + settings.truckid + settings.delimiter + GPS.date.ToString() + " " + GPS.time.ToString() + settings.delimiter + GPS.Latitude + settings.delimiter + GPS.Longitude);
+    //                    //sw.Close();
+    //                    //logBladeList.RemoveAt(0);
+    //                }
+    //                catch (Exception ex)
+    //                {
+    //                    Console.WriteLine(GPS.date.ToString() + " " + GPS.time.ToString() + " " + ex.Message);
+    //                }
+    //            }
+    //        }
+    //    }
+    }
+}

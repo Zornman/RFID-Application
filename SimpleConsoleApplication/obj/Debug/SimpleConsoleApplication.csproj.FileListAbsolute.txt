@@ -1,0 +1,13 @@
+C:\Documents and Settings\AtifK\My Documents\Downloads\SimpleConsoleApplication\SimpleConsoleApplication\SimpleConsoleApplication\obj\Debug\SimpleConsoleApplication.exe
+C:\Documents and Settings\AtifK\My Documents\Downloads\SimpleConsoleApplication\SimpleConsoleApplication\SimpleConsoleApplication\obj\Debug\SimpleConsoleApplication.pdb
+C:\Documents and Settings\AtifK\My Documents\Downloads\SimpleConsoleApplication\SimpleConsoleApplication\SimpleConsoleApplication\bin\Debug\SimpleConsoleApplication.exe
+C:\Documents and Settings\AtifK\My Documents\Downloads\SimpleConsoleApplication\SimpleConsoleApplication\SimpleConsoleApplication\bin\Debug\SimpleConsoleApplication.pdb
+C:\Documents and Settings\AtifK\My Documents\Downloads\SimpleConsoleApplication\SimpleConsoleApplication\SimpleConsoleApplication\bin\Debug\Intermec.DataCollection.RFID.AdvancedBRI.dll
+C:\Documents and Settings\AtifK\My Documents\Downloads\SimpleConsoleApplication\SimpleConsoleApplication\SimpleConsoleApplication\bin\Debug\Intermec.DataCollection.RFID.BasicBRI.dll
+C:\Documents and Settings\AtifK\My Documents\Downloads\SimpleConsoleApplication\SimpleConsoleApplication\SimpleConsoleApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\atifkhan\Desktop\SimpleConsoleApplication\SimpleConsoleApplication\bin\Debug\SimpleConsoleApplication.exe.config
+C:\Users\atifkhan\Desktop\SimpleConsoleApplication\SimpleConsoleApplication\bin\Debug\SimpleConsoleApplication.exe
+C:\Users\atifkhan\Desktop\SimpleConsoleApplication\SimpleConsoleApplication\bin\Debug\SimpleConsoleApplication.pdb
+C:\Users\atifkhan\Desktop\SimpleConsoleApplication\SimpleConsoleApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\atifkhan\Desktop\SimpleConsoleApplication\SimpleConsoleApplication\obj\Debug\SimpleConsoleApplication.exe
+C:\Users\atifkhan\Desktop\SimpleConsoleApplication\SimpleConsoleApplication\obj\Debug\SimpleConsoleApplication.pdb

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <enable_flat_file_storage>0</enable_flat_file_storage>
+  <enable_debug>0</enable_debug>
+  <enable_pcmode>0</enable_pcmode>
+  <hwid>if2</hwid>
+  <enable_trigger>1</enable_trigger>
+  <enable_gps>1</enable_gps>
+  <enable_live_data_transmit>1</enable_live_data_transmit>
+  <transmit_timer>60000</transmit_timer>
+  <reader_ip>169.254.1.1</reader_ip>
+  <ants>1,2</ants>
+  <pc_com_port>com3</pc_com_port>
+  <ant1>27DB</ant1>
+  <ant2>27DB</ant2>
+  <ant3>27DB</ant3>
+  <ant4>27DB</ant4>
+  <park_antenna>4</park_antenna>
+  <enable_tag_list>0</enable_tag_list>
+  <tag_list>ad87</tag_list>
+  <server>12.178.184.154</server>
+  <port>10070</port>
+  <username>sa</username>
+  <password></password>
+  <data_refresh_rate>1</data_refresh_rate>
+  <enable_dump>1</enable_dump>
+  <timer_gpo_2>3000</timer_gpo_2>
+  <timer_gpo_3>500</timer_gpo_3>
+  <timer_gpo_4>3000</timer_gpo_4>
+  <truck>DEMO1</truck>
+  <route>54</route>
+  <delimiter>,</delimiter>
+  <program_name>SONR</program_name>
+  <gps>pinpoint</gps>
+  <observations>1</observations>
+  <cc_tag>33B809CD42AC150000001BD8</cc_tag>
+  <transmit_maxCount>10</transmit_maxCount>
+  <transmit_username>username</transmit_username>
+  <transmit_password>password</transmit_password>
+  <sent_notification>0</sent_notification>
+  <emailAddressList>alec.zorn@sonraisystems.com</emailAddressList>
+</config>

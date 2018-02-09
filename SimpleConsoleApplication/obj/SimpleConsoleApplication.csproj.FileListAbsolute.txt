@@ -1,0 +1,14 @@
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\bin\Debug\SimpleConsoleApplication.exe
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\bin\Debug\SimpleConsoleApplication.pdb
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\bin\Debug\Intermec.DataCollection.RFID.AdvancedBRI.dll
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\bin\Debug\Intermec.DataCollection.RFID.BasicBRI.dll
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\obj\Debug\SimpleConsoleApplication.exe
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\obj\Debug\SimpleConsoleApplication.pdb
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb

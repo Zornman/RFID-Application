@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SimpleConsoleApplication.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SimpleConsoleApplication_com_sonraisystems_phoenix_SonraiDataService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://phoenix.sonraisystems.com/sonraidataservice.asmx</Value>
+    </Setting>
+    <Setting Name="SimpleConsoleApplication_com_sonraisystems_sonraipickupsvc_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://sonraipickupsvc.sonraisystems.com/SonraiPickupSvc/service.asmx</Value>
+    </Setting>
+    <Setting Name="SimpleConsoleApplication_com_sonraisystems_sonraipickupsvc1_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://sonraipickupsvc.sonraisystems.com/SonraiPickupSvc/service.asmx</Value>
+    </Setting>
+    <Setting Name="SimpleConsoleApplication_WebReferenceHoneywellWSDL_DeviceConfiguration" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.10.10.5:64907</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
